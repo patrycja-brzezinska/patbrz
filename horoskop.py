@@ -1,3 +1,4 @@
+
 y=str(input("Twój miesiąc urodzenia to: \n")).lower()
 z=int(input("Twój dzień urodzenia to: \n"))
 if(((y=="styczeń" or y=="styczen") and 19>=z>0) or ((y=="grudzień" or y=="grudzien") and 31>=z>=22)):
@@ -6,7 +7,7 @@ elif(((y=="styczeń" or y=="styczen") and 31>=z>=20) or (y=="luty" and 18>=z>0))
        print("Jesteś Wodnikiem!!!")
 elif((y=="luty" and 19<=z<=29) or (y=="marzec" and 20>=z>0)):
        print("Jesteś Rybami!!!")
-elif((y=="marzec" and 31>=z>=21) or (y=="kwiecień" or y=="kwiecien") and 19>=z>0)):
+elif((y=="marzec" and 31>=z>=21) or ((y=="kwiecień" or y=="kwiecien") and 19>=z>0)):
        print("Jesteś Baranem!!!")
 elif((y=="maj" and 20>=z>0) or ((y=="kwiecień" or y=="kwiecien") and 30>=z>=20)):
        print("Jesteś Bykiem!!!")
